@@ -8,7 +8,7 @@ describe('verify the contactus form',function(){
         cy.addElement('[name="message"]','i am new in cypress')
         cy.get('[type="submit"]').click()
         cy.get('h1').should('be.visible').contains('Thank You')
-        // cy.addElement('[type="submit"]','submit')
+        //cy.addElement('[type="submit"]','submit')
         // cy.addElement('h1').should('be.visible')
         
 
