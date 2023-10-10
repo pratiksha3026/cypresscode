@@ -13,7 +13,7 @@ describe('verify contactus form', function () {
         cy.addElement(info.firstname, 'pratiksha')
         cy.addElement(info.lastname, 'bhosale')
         cy.addElement(info.email, 'prati@gmail.com')
-        cy.addElement(info.comment, 'sample fixture')
+        //cy.addElement(info.comment, 'sample fixture')
 
     })
 })
